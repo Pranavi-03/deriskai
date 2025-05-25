@@ -47,26 +47,28 @@ In DeFi protocols, vulnerabilities like flash loan attacks or oracle manipulatio
 
 ## 🛠️ Run Locally
 
-### 1. Backend (Node.js)
+###  Backend (Node.js),Frontend(React),AI Engine(Python Flask)
 ```bash
+1. Backend(Node.js)
 cd backend
 npm install
 node index.js
 
-### 2. Frontend(React)
+2. Frontend(React)
 
 cd frontend
 npm install
 npm start
 
-### 3. AI Engine(Python Flask)
-```bash
+3. AI Engine(Python Flask)
+
 cd backend-python
 pip install flask scikit-learn
 python risk_model.py
 
 
-
+###
+```
 🎥 Demo Video  
 [Click to Watch Demo](https://drive.google.com/file/d/1dYhQcbqinkev6Wq_X56YiCu5l5LXdh6z/view?usp=drive_link)
 
