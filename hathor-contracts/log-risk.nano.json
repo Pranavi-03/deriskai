@@ -1,0 +1,16 @@
+{
+  "name": "RiskAlertNano",
+  "version": "1.0",
+  "inputs": ["contractAddress", "riskScore", "description"],
+  "actions": [
+    {
+      "condition": "riskScore > 70",
+      "trigger": "pauseContract"
+    },
+    {
+      "condition": "riskScore <= 70",
+      "trigger": "flagContract"
+    }
+  ],
+  "outputs": ["logToBlockchain", "notifyTelegramBot"]
+}
