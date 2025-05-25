@@ -54,7 +54,7 @@ npm install
 node index.js
 
 ### 2. Frontend(React)
-```bash
+
 cd frontend
 npm install
 npm start
